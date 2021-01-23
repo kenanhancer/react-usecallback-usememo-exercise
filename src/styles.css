@@ -1,0 +1,16 @@
+.boxColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.boxColumn div {
+  border: 2px solid green;
+  margin: 5px;
+  padding: 1em;
+  overflow-y: scroll;
+}
